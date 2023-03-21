@@ -569,6 +569,21 @@ theme-rtd = ["sphinx-rtd-theme (>=1.0,<2.0)"]
 theme-sbt = ["sphinx-book-theme (>=0.3.0,<0.4.0)"]
 
 [[package]]
+name = "sphinx-sitemap"
+version = "2.5.0"
+description = "Sitemap generator for Sphinx"
+category = "main"
+optional = false
+python-versions = "*"
+files = [
+    {file = "sphinx-sitemap-2.5.0.tar.gz", hash = "sha256:95101f622d0d594161720cbe92a39d353efae9382f7f3563f06d150b1146fef6"},
+    {file = "sphinx_sitemap-2.5.0-py3-none-any.whl", hash = "sha256:98a7e3bb25acb467037b56f3585fc38d53d5a274542b1497393a66f71b79b125"},
+]
+
+[package.dependencies]
+sphinx = ">=1.2"
+
+[[package]]
 name = "sphinxcontrib-applehelp"
 version = "1.0.4"
 description = "sphinxcontrib-applehelp is a Sphinx extension which outputs Apple help books"
@@ -683,4 +698,4 @@ socks = ["PySocks (>=1.5.6,!=1.5.7,<2.0)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "26dac2cca1f021420a35a9ae63352347d42ec91e2ae71deb646f4807583dca3b"
+content-hash = "46787de41c155832965dd399971a54993f9bb917186a3ab4029a04fe289d11db"
