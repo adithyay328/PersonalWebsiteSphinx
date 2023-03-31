@@ -1,0 +1,5 @@
+# Ignore build artifcts from site
+build/**
+
+# Ignore any no-commit dirs
+**/nocommit/**
