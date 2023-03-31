@@ -9,9 +9,9 @@
             "command": "echo Hello"
         },
         {
-            "label": "Build Sphinx Documentation",
+            "label": "Build Sphinx Documentation with Make(faster)",
             "type": "shell",
-            "command": "poetry run sphinx-build -b html source build",
+            "command": "poetry run make html",
             "group": {
                 "kind": "build",
                 "isDefault": false
