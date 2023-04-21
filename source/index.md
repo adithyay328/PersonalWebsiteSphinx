@@ -12,14 +12,11 @@
 ```
 
 ```{toctree}
----
-hidden: True
-caption: Tutorials
-maxdepth: 2
----
+:hidden:
+:maxdepth: 1
+:caption: Tutorials
 
-Optimization
-tutorials/tutorials
+optimization_tutorials/Optimization
 ```
 
 ## About Me

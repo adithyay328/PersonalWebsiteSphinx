@@ -13,8 +13,13 @@ author = 'Adithya Yerramsetty'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ["myst_parser", "sphinx_design", 'sphinx_sitemap']
-myst_enable_extensions = ["colon_fence"]
+extensions = ["myst_parser", 'sphinx_sitemap']
+myst_enable_extensions = [
+    "colon_fence",
+    "dollarmath",
+    "amsmath"
+]
+myst_heading_anchors = 3
 
 templates_path = ['_templates']
 exclude_patterns = []
